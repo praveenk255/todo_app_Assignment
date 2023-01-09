@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ToDo List</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body class="ml-5 mt-4">
+<nav class="navbar navbar-expand-lg navbar-light h1 text-primary mb-5">
+  &nbsp; ToDo App&nbsp;
+
+  </nav>
+<div class="jumbotron-fluid col-md-9">
+    <div class="input-group mb-5 col-md-auto col-md-8">
+
+            <input type="text" class="form-control" placeholder="Your Tasks" aria-label="Your Tasks"
+              aria-describedby="button-addon2" id="todo" >
+            <button class="btn btn-outline-secondary" onclick="validation()" type="button" id="button-addon2">Add&nbsp;Task</button>
+      </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <div class="col-md-11">
+      <h6 class="">Pending Tasks&nbsp; &nbsp;<br>
+        <br>
+        <div id='ptasks'></div>
+      </h6>
+</div>
+    <div class="col-md-11">
+      <h6 class="">Completed Tasks&nbsp; &nbsp;<br>
+        <br>
+        <div id = 'ctasks'>
+        
+</div>
+      </h6>
+    </div>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    
+      </body>
+      <script src="script.js"></script>
+</html>
